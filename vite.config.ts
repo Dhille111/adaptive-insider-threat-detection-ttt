@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
   preview: {
     host: "0.0.0.0",
     port: 8080,
-    allowedHosts: ["adaptive-insider-threat-detection-ttt.onrender.com"],
+    allowedHosts: true,
   },
   plugins: [react()],
   resolve: {
